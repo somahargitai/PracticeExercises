@@ -6,20 +6,13 @@ Given a 2D array, containing 1 and 0 values. Write function to detect if they fo
 
 example data:
 ```
-0 0 0 0 0  
-0 1 1 1 1  
-0 1 0 0 1  
-0 1 1 1 1  
-0 0 0 0 0  
+0 0 0 0 0   |   1 0 0 0 0   
+0 1 1 1 1   |   1 1 0 0 0   
+0 1 0 0 1   |   1 0 1 0 0   
+0 1 1 1 1   |   1 1 1 1 0   
+0 0 0 0 0   |   0 0 0 0 0   
 ```
 
-```
-1 0 0 0 0  
-1 1 0 0 0  
-1 0 1 0 0  
-1 1 1 1 0  
-0 0 0 0 0  
-```
 
 Hint:
 - Angles of triangles can be 90-45-45 only
